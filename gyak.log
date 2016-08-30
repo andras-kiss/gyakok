@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.14)  15 AUG 2016 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.28)  28 AUG 2016 20:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,34 +520,14 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
+Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
 
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks16
-\pgfutil@tempdima=\dimen103
-\pgfutil@tempdimb=\dimen104
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box26
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
-))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
@@ -571,9 +551,29 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
 ))
-\Gin@req@height=\dimen105
-\Gin@req@width=\dimen106
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
 )
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen105
+\pgfutil@tempdimb=\dimen106
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box26
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
@@ -971,7 +971,6 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 30.
 
-ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
@@ -1034,8 +1033,9 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
+s been generated with the most recent feature set (\pgfplotsset{compat=1.14}).
 
 
 ! Package pgfplots Error: Could not read table file 'plotdata/ternary_data.txt'
@@ -1067,26 +1067,69 @@ Overfull \hbox (77.06015pt too wide) in paragraph at lines 105--108
  [][] 
  []
 
-[2] [3] (./gyak.aux)
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 139.
+
+LaTeX Font Info:    No file TS1aer.fd. on input line 139.
+
+LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textdegree' on input line 139.
+
+
+Overfull \hbox (5.98363pt too wide) in paragraph at lines 129--140
+[]\T1/aer/m/n/10 2. A gyako-r-lat kivitelezése Az As-pirin (acetil-sza-li-cil-s
+av) hidrolízise kinetikailag
+ []
+
+
+Overfull \hbox (2.93475pt too wide) in paragraph at lines 129--140
+\T1/aer/m/n/10 r-latvezetõ határozza meg a gyako-r-lat kezde-tén. (A reak-ció A
+r-rhe-nius paramétere-
+ []
+
+[2] [3]
+Overfull \hbox (0.20743pt too wide) in paragraph at lines 141--143
+[]\T1/aer/m/n/10 2 db As-pirint külön-külön dörzs-mozsár-ban el-porí-tunk, és k
+ülön-külön fõzõpo-
+ []
+
+
+Overfull \hbox (0.83656pt too wide) in paragraph at lines 152--155
+\T1/aer/m/n/10 veszünk, ame-lyet az elõkészített 25 cm3-s mérõlom-bikokba töltü
+nk. A mintákhoz
+ []
+
+
+Overfull \hbox (16.30841pt too wide) in paragraph at lines 157--158
+[]\T1/aer/m/n/10 Reakció ma-g-a-sabb hõmérsék-leten, pl. 333-343 K-en (a gyako-
+r-latvezetõ határozza
+ []
+
+[4] [5] (./gyak.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22273 strings out of 493013
- 575583 string characters out of 6135682
- 758131 words of memory out of 5000000
- 25430 multiletter control sequences out of 15000+600000
- 12572 words of font info for 27 fonts, out of 8000000 for 9000
+ 22590 strings out of 493013
+ 587069 string characters out of 6135682
+ 779853 words of memory out of 5000000
+ 25738 multiletter control sequences out of 15000+600000
+ 17550 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,84p,727b,2012s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb>
-Output written on gyak.pdf (3 pages, 51224 bytes).
+ 69i,11n,120p,727b,2017s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1000.pfb>
+Output written on gyak.pdf (5 pages, 67860 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
