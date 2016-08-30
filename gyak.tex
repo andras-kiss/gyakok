@@ -1,34 +1,22 @@
-\documentclass{article}
-% translate with >> pdflatex -shell-escape <file>
-
-% This file is an extract of the PGFPLOTS manual, copyright by Christian Feuersaenger.
-% 
-% Feel free to use it as long as you cite the pgfplots manual properly.
-%
-% See
-%   http://pgfplots.sourceforge.net/pgfplots.pdf
-% for the complete manual.
-%
-% Any required input files (for <plot table> or <plot file> or the table package) can be downloaded
-% at
-% http://www.ctan.org/tex-archive/graphics/pgf/contrib/pgfplots/doc/latex/
-% and
-% http://www.ctan.org/tex-archive/graphics/pgf/contrib/pgfplots/doc/latex/plotdata/
+\documentclass[a4paper, 12pt]{article}
 \usepackage{ae,aecompl}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{textcomp}
-
-
 \usepackage{pgfplots}
+\usepackage{anysize}
+\marginsize{3.2cm}{2.8cm}{3cm}{2cm}
+\usepackage{setspace}
+\setstretch{1.2}
+\frenchspacing
 \pgfplotsset{compat=newest}
-
 \pagestyle{empty}
-
 \usepgfplotslibrary{ternary}
 
-\begin{document}
+\hyphenation{hő-mér-sék-let-füg-gé-sét}
 
+
+\begin{document}
 
 \section{Terner rendszer vizsgálata}
 A háromkomponensű vagy terner rendszerek nem csak elméleti szempontból vetnek fel érdekes kérdéseket, de nagy gyakorlati jelentõségük is van, például a kohászatban, műanyagiparban.
@@ -88,8 +76,6 @@ A könnyebb átláthatóságért célszerű a háromszögre egy körüljárási 
 \label{fig:ccw}
 \end{figure}
 
-\newpage
-\newpage
 \begin{figure}
 \centering
 \begin{tikzpicture}
@@ -107,27 +93,77 @@ A könnyebb átláthatóságért célszerű a háromszögre egy körüljárási 
 \label{fig:ccw}
 \end{figure}
 
+\newpage
+\pagebreak[4]
 \section{Gyógyszerbomlás sebességének hőmérsékletfüggése}
 
-\subsection
-A gyakorlat során, az Aspirin hidrolízisének kinetikailag elsõrendõ reakciójának hõmérsékletfüggését vizsgáljuk.
-A sebességi állandója a következõképpen adható meg:
-k=1/tln(z/(z-x))
-ahol t az idõ, z a reagens (jelen esetben a Aspirin) kezdeti koncentrációja, x pedig az elbomlott reagens koncentrációja.
+\subsection{Bevezetés}
+A gyakorlat során az Aspirin hidrolízisének kinetikailag elsőrendű reakciójának hőmérsékletfüggését vizsgáljuk.
+A sebességi állandója a következőképpen adható meg:
 
-A reakció sebessége vagy a sebességi állandó értéke függ a hõmérséklettõl.
-A hõmérsékletfüggést az Arrhenius egyenlet írja le:
-dlnk/dt=E/(RT)2
+\begin{equation}
+\label{eq:divider}
+        k
+        =
+        \frac
+                {1}
+                {t}
+	\ln(\frac{z}{z-x})
+\end{equation}
+
+ahol $t$ az idő, $z$ a reagens (jelen esetben a Aspirin) kezdeti koncentrációja, $x$ pedig az elbomlott reagens koncentrációja.
+
+A reakció sebessége vagy a sebességi állandó értéke függ a hõmérséklettől.
+A hőmérsékletfüggést az Arrhenius egyenlet írja le:
+
+\begin{equation}
+\label{eq:divider}
+        \frac
+                {d\ln k}
+                {dT}
+	=
+	\frac
+		{E}
+		{RT^2}
+\end{equation}
+
 melynek integrált alakja:
-k=Ae-E/(RT)
-lgk=lgA-E/(2,303RT)
-Az egyenletben, A a preexponenciális tényezõ, E az aktiválási energia, R a gázállandó (R=8,314 J/Kmol).
-Az aktiválási energia meghatározható grafikus úton, ha az lgk - 1/T függvény meredekségét megmérjük és azt szorozzuk 2,303 x 8,314-el, amikor az E-t J/molban kapjuk meg.
-Ha két hõmérsékleten megmérjük a reakciósebességi állandót (k1-t és k2-t T1 és T2 hõmérsékleten) az aktiválási energia a következõ képlettel számítható ki:
-E=2,303 x 8,314lg(k1/k2)(T1T2/(T1-T2))
 
-2. A gyakorlat kivitelezése
-Az Aspirin (acetilszalicilsav) hidrolízise kinetikailag elsõrendû folyamat és az alábbiak szerint játszódik le:
+\begin{equation}
+\label{eq:divider}
+        k
+        =
+	A
+	e^{-E/(RT)}
+\end{equation}
+
+illetve
+
+\begin{equation}
+\label{eq:divider}
+        \lg k
+        =
+        \lg A
+	-\frac{E}{2.303 RT}
+\end{equation}
+
+Az egyenletben $A$ a preexponenciális tényező, $E$ az aktiválási energia, és $R$ a gázállandó ($R = 8.314$ J/Kmol).
+Az aktiválási energia meghatározható grafikus úton, ha az $\lg k - 1/T$ függvény meredekségét megmérjük és azt szorozzuk 2.303 $\times$ 8.314-el, amikor az $E$-t J/molban kapjuk meg.
+Ha két hőmérsékleten megmérjük a reakciósebességi állandót ($k_1$-t és $k_2$-t $T_1$ és $T_2$ hőmérsékleten) az aktiválási energia a következő képlettel számítható ki:
+
+\begin{equation}
+	E
+	=
+	2.303
+	\times
+	8.314
+	\lg
+	\frac{k_1}{k_2}
+	\frac{T_1 T_2}{T_1-T_2}
+\end{equation}
+
+\subsection{A gyakorlat kivitelezése}
+Az Aspirin (acetilszalicilsav) hidrolízise kinetikailag elsőrendű folyamat és az alábbiak szerint játszódik le:
 ábra: acetilszalicilsav és szalicilsav
 A reakció szobahõmérsékleten igen lassú, ezért a méréseket magasabb hõmérsékleten végezzük.
 A reakció sebességi állandójának meghatározásához ismerni kell a reaktáns vagy a termék koncentrációjának változását a reakcióidõvel.
