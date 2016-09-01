@@ -27,6 +27,7 @@
 \begin{minipage}{1\textwidth}
 \hrule width \hsize \kern 1mm \hrule width \hsize height 2pt 
 \end{minipage}}%
+
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[LE,RO]{\leftmark}
@@ -131,7 +132,7 @@ A reakció szobahőmérsékleten igen lassú, ezért a méréseket magasabb hőm
 A reakció sebességi együtthatójának meghatározásához ismerni kell a reaktáns vagy a termék koncentrációjának változását a reakcióidővel.
 Jelen reakcióban a képződő szalicilsav Fe$^{3+}$ ionokkal alkotott stabil ibolyaszínű komplexét határozzuk meg spektrofotometriás módszerrel.
 A lúgos közegben lejátszódó reakcióelegyből meghatározott reakcióidőnél ismert mennyiségű mintákat veszünk, a reakciót befagyasztjuk a hőmérséklet és a [OH$^-$] hirtelen csökkentésével.
-Az előírt hígításokat követően a szalicilsav Fe(III)-komplexének koncentrációját spektrofotometriás úton meghatározzuk. Higításra lehet szükség, ha az abszorbancia 2 feletti, ekkor ugyanis a legtöbb műszer által mért érték nincs egyszerű egyenes arányosságban a koncentrációval, ami megbízhatatlan értéket eredményez. Célszerű ilyenkor a $5 - 10 \times$ higítást végezni, és újramérni az abszorbanciát, majd megszorozni a higítással a koncentrácóra kapott értéket.
+Az előírt hígításokat követően a szalicilsav Fe(III)-komplexének koncentrációját spektrofotometriás úton meghatározzuk. Higításra lehet szükség, ha az abszorbancia 2 feletti, ekkor ugyanis a legtöbb műszer által mért érték nincs egyszerű egyenes arányosságban a koncentrációval, ami megbízhatatlan értéket eredményez. Célszerű ilyenkor a $5 - 10 \times$ higítást végezni, és újramérni az abszorbanciát, majd megszorozni a higítással a koncentrációra kapott értéket.
 A $t = \infty$ reakcióidőhöz tartozó termékkoncentrációkat, amelyek megfelelnek az \emph{Aspirin} kezdeti koncentrációjának, igen nagy reakcióidőnél vett mintából lehet meghatározni.
 A méréseket két hőmérsékleten kell végrehajtani, ezeket a gyakorlatvezető határozza meg a gyakorlat kezdetén.
 A reakció Arrhenius paramétereinek meghatározása érdekében ajánlott hőmérséklet 313 és 353 K.
@@ -175,18 +176,40 @@ A spektrofotométer kezelési leírása a készülék mellett megtalálható.
 
 \subsection{Beadandó eredmények}
 
-1. táblázat: A mérési és számított adatok táblázatosan
+\begin{enumerate}
+\item A mérési és számított adatok táblázatosan (\ref{table:tablazatos}. táblázat).
+\item A sebességi állandók számítása (\ref{table:seb}. táblázat)\footnote{Standard deviáció, $s=\sqrt{\frac{\Sigma(x_i-\overline{x})^2}{n-1}}$}.
+\item A sebességi állandó hőmérsékletfüggéséből határozzuk meg a sebességi állandó értékét 20 $\celsius$-on (293 K) grafikusan, ábrázolva a $\lg k$-t az $1/T$ függvényében.
+\item Az Arrhenius egyenlet integrált alakjába történő behelyettesítéssel számítsuk ki az $E$ aktiválási energiát és a preexponciális tényezőt:
+	\begin{enumerate}
+		\item E [kJ mol$^{-1}$]
+		\item $\lg$ A [$s^{-1}$]
+		\item A [s$^{-1}$]
+	\end{enumerate}
+\end{enumerate}
 
-2. táblázat: A sebességi együttható hőmérsékletfüggése
+\begin{table}[!h]
+\caption{A mérési és számított adatok táblázatosan.}
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Reakcióidő, s&Hígítás&A&x, mg / 100 cm$^3$ &(z-x), mg / 100 cm$^3$ &k, s$^{-1}$ \\
+\hline
+... & ... & ... & ... & ... & ... \\
+\end{tabular}
+\label{table:tablazatos}
+\end{table}
 
-3. A sebességi állandó hõmérsékletfüggésébõl határozzuk meg a sebességi állandó értékét 20 °C-on (293 K) grafikusan, ábrázolva a lg k - az l/T függvényében.
-
-4. Az Arrhenius egyenlet integrált alakjába történõ behlyettesítéssel számtsuk ki az E aktiválási energiát és a preexponciális tényezõt:
-E [kJ mol-1]
-lgA[s-1]
-A[s-1]
-
-*standard deviációs számítása
-s=….
+\begin{table}[!h]
+\caption{A sebességi állandó hőmérsékletfüggése.}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Hőmérséklet, K& 1/T & $\overline{k}$ (átlag), s$^{-1}$ & $\lg$k & standard deviáció \\
+\hline
+... & ... & ... & ... & ... \\
+\end{tabular}
+\label{table:seb}
+\end{table}
 
 \end{document}
