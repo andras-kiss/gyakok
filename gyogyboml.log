@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  1 SEP 2016 13:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  1 SEP 2016 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -897,7 +897,10 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-(./gyogyboml.aux
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+\@enLab=\toks33
+) (./gyogyboml.aux
 
 LaTeX Warning: Label `eq:divider' multiply defined.
 
@@ -910,24 +913,24 @@ LaTeX Warning: Label `eq:divider' multiply defined.
 )
 \openout1 = `gyogyboml.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    ... okay on input line 46.
 
 
 LaTeX Warning: Please use \usepackage[latin2]{inputenc} with
@@ -946,12 +949,12 @@ ABD: EveryShipout initializing macros
 \scratchbox=\box42
 \nofMPsegments=\count123
 \nofMParguments=\count124
-\everyMPshowfont=\toks33
+\everyMPshowfont=\toks34
 \MPscratchCnt=\count125
 \MPscratchDim=\dimen173
 \MPnumerator=\count126
 \makeMPintoPDFobject=\count127
-\everyMPtoPDFconversion=\toks34
+\everyMPtoPDFconversion=\toks35
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1005,36 +1008,36 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.11}).
 
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/aer/m/n --> TS1/aer/bx/n on input line 44.
-Package gensymb Info: Math companion symbols declared on input line 44.
-LaTeX Info: Redefining \degree on input line 44.
-LaTeX Info: Redefining \celsius on input line 44.
+(Font)                  TS1/aer/m/n --> TS1/aer/bx/n on input line 46.
+Package gensymb Info: Math companion symbols declared on input line 46.
+LaTeX Info: Redefining \degree on input line 46.
+LaTeX Info: Redefining \celsius on input line 46.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 44.
-LaTeX Info: Redefining \ohm on input line 44.
-Package gensymb Info: Using \textohm for \ohm on input line 44.
-Package gensymb Info: Using \textmu for \micro on input line 44.
+erthousand on input line 46.
+LaTeX Info: Redefining \ohm on input line 46.
+Package gensymb Info: Using \textohm for \ohm on input line 46.
+Package gensymb Info: Using \textmu for \micro on input line 46.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 LaTeX Info: Redefining \cal on input line 506.
 LaTeX Info: Redefining \mit on input line 507.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 53.
+(Font)              <12> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 53.
+(Font)              <8> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 53.
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 53.
-LaTeX Font Info:    No file TS1aer.fd. on input line 53.
+(Font)              <6> on input line 55.
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 55.
+LaTeX Font Info:    No file TS1aer.fd. on input line 55.
 
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 53.
+(Font)              using `TS1/cmr/m/n' instead on input line 55.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 125.
+(Font)              <7> on input line 127.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 125.
+(Font)              <5> on input line 127.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.86389pt.
@@ -1044,11 +1047,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] [2]
-Underfull \vbox (badness 1960) has occurred while \output is active []
-
- [3]
-[4] (./gyogyboml.aux)
+] [2] [3] [4]
+(./gyogyboml.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1057,13 +1057,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23714 strings out of 493105
- 579930 string characters out of 6137072
+ 23744 strings out of 493105
+ 580329 string characters out of 6137072
  744364 words of memory out of 5000000
- 26733 multiletter control sequences out of 15000+600000
- 28775 words of font info for 58 fonts, out of 8000000 for 9000
+ 26752 multiletter control sequences out of 15000+600000
+ 34405 words of font info for 67 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 62i,15n,95p,725b,1553s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,95p,1058b,1553s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
@@ -1079,12 +1079,13 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm1200.pfb>
-Output written on gyogyboml.pdf (4 pages, 173955 bytes).
+1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm120
+0.pfb>
+Output written on gyogyboml.pdf (4 pages, 189810 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
