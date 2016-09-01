@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  1 SEP 2016 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  1 SEP 2016 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -913,24 +913,24 @@ LaTeX Warning: Label `eq:divider' multiply defined.
 )
 \openout1 = `gyogyboml.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    ... okay on input line 50.
 
 
 LaTeX Warning: Please use \usepackage[latin2]{inputenc} with
@@ -1008,36 +1008,36 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.11}).
 
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/aer/m/n --> TS1/aer/bx/n on input line 48.
-Package gensymb Info: Math companion symbols declared on input line 48.
-LaTeX Info: Redefining \degree on input line 48.
-LaTeX Info: Redefining \celsius on input line 48.
+(Font)                  TS1/aer/m/n --> TS1/aer/bx/n on input line 50.
+Package gensymb Info: Math companion symbols declared on input line 50.
+LaTeX Info: Redefining \degree on input line 50.
+LaTeX Info: Redefining \celsius on input line 50.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 48.
-LaTeX Info: Redefining \ohm on input line 48.
-Package gensymb Info: Using \textohm for \ohm on input line 48.
-Package gensymb Info: Using \textmu for \micro on input line 48.
+erthousand on input line 50.
+LaTeX Info: Redefining \ohm on input line 50.
+Package gensymb Info: Using \textohm for \ohm on input line 50.
+Package gensymb Info: Using \textmu for \micro on input line 50.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 LaTeX Info: Redefining \cal on input line 506.
 LaTeX Info: Redefining \mit on input line 507.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 57.
+(Font)              <12> on input line 59.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 57.
+(Font)              <8> on input line 59.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 57.
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 57.
-LaTeX Font Info:    No file TS1aer.fd. on input line 57.
+(Font)              <6> on input line 59.
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 59.
+LaTeX Font Info:    No file TS1aer.fd. on input line 59.
 
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 57.
+(Font)              using `TS1/cmr/m/n' instead on input line 59.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 129.
+(Font)              <7> on input line 131.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 129.
+(Font)              <5> on input line 131.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.86389pt.
@@ -1082,7 +1082,7 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm120
 0.pfb>
-Output written on gyogyboml.pdf (4 pages, 190011 bytes).
+Output written on gyogyboml.pdf (4 pages, 189702 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream
