@@ -1,4 +1,4 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass[a4paper, 12pt, twoside]{article}
 \usepackage[hungarian]{babel}
 \usepackage{ae,aecompl}
 \usepackage[T1]{fontenc}
@@ -11,17 +11,39 @@
 \setstretch{1.2}
 \frenchspacing
 \pgfplotsset{compat=newest}
-\pagestyle{empty}
+%\pagestyle{empty}
 \usepgfplotslibrary{ternary}
 \usepackage{chemfig}
 \usepackage{gensymb}
+\usepackage{fancyhdr}
 
 \hyphenation{hő-mér-sék-let-füg-gé-sét}
 
+\renewcommand\footrule{\begin{minipage}{1\textwidth}
+\hrule width \hsize height 2pt \kern 1mm \hrule width \hsize   
+\end{minipage}\par}%
+
+\renewcommand\headrule{
+\begin{minipage}{1\textwidth}
+\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt 
+\end{minipage}}%
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[RE,LO]{\emph{Fizikai Kémia gyakorlatok gyógyszerész hallgatóknak}}
+
+%\pagestyle{fancy}
+%\fancyhf{}
+%\usepackage{lastpage}
+%\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+%\lhead{\thesection}
+%\cfoot{\itshape\textcolor{gray}{Fizikai Kémia gyakorlatok gyógyszerészeknek}}
+
 \begin{document}
 
+\setcounter{section}{2}
 \section{Gyógyszerbomlás sebességének hőmérsékletfüggése}
-
 \subsection{Bevezetés}
 
 A gyakorlat során az \emph{Aspirin} (acetilszalicilsav) hidrolízisének kinetikailag elsőrendű reakciójának hőmérsékletfüggését vizsgáljuk.
