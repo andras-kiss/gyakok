@@ -1,0 +1,8 @@
+\select@language {hungarian} \contentsline {section}{\numberline {8}Gy\IeC {\'o}gyszerboml\IeC {\'a}s sebess\IeC {\'e}g\IeC {\'e}nek h\IeC {\H o}m\IeC {\'e}rs\IeC {\'e}kletf\IeC {\"u}gg\IeC {\'e}se}{3}
+\select@language {hungarian} \contentsline {subsection}{\numberline {8.1}Bevezet\IeC {\'e}s}{3}
+\select@language {hungarian} \contentsline {subsection}{\numberline {8.2}A gyakorlat kivitelez\IeC {\'e}se}{3}
+\select@language {hungarian} \contentsline {subsection}{\numberline {8.3}Beadand\IeC {\'o} eredm\IeC {\'e}nyek}{5}
+\select@language {hungarian} \contentsline {section}{\numberline {8}Gyengesav disszoci\IeC {\'a}ci\IeC {\'o}s \IeC {\'a}lland\IeC {\'o}j\IeC {\'a}nak meghat\IeC {\'a}roz\IeC {\'a}sa vezet\IeC {\'e}s m\IeC {\'e}r\IeC {\'e}s\IeC {\'e}vel}{7}
+\select@language {hungarian} \contentsline {subsection}{\numberline {8.1}Bevezet\IeC {\'e}s}{7}
+\select@language {hungarian} \contentsline {subsection}{\numberline {8.2}A gyakorlat le\IeC {\'\i }r\IeC {\'a}sa}{9}
+\select@language {hungarian} \contentsline {subsection}{\numberline {8.3}A m\IeC {\'e}r\IeC {\'e}si eredm\IeC {\'e}nyek ki\IeC {\'e}rt\IeC {\'e}kel\IeC {\'e}se}{10}
