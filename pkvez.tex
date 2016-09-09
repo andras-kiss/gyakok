@@ -3,7 +3,7 @@
 \fancyfoot[LE,RO]{\thepage}
 \fancyfoot[RE,LO]{\emph{Fizikai Kémia gyakorlatok gyógyszerész hallgatóknak}}
 
-\setcounter{section}{7}
+\setcounter{section}{1}
 \section{Gyengesav disszociációs állandójának meghatározása vezetés mérésével}
 \subsection{Bevezetés}
 Az elektromos ellenállás anyagi tulajdonság.
@@ -25,8 +25,7 @@ Az elektrokémiában több szempontból előnyös, ha a fenti mértékegységek 
 
 Elektrolitok oldatainak fajlagos vezetésén ($\kappa$) az 1 cm távolságban, párhuzamos, 1-1 cm$^2$ felületű elsőrendű (inert fém, pl. arany vagy gyakrabban platina) vezetőből készült elektródok között elhelyezkedő folyadékkocka vezetését értjük, mértékegysége S $\cdot$ cm$^{-1}$.
 A fajlagos vezetés függ az elektrolit anyagi minőségétől, koncentrációjától, valamint a hőmérséklettől.
-Moláris fajlagos vezetésen ($\Lambda _m$) azt értjük, mikor 1 cm-re elhelyezkedő elektródok közé 1 mol elektrolitot helyezünk el és a vezetést a fal mentén arra merőlegesen mérjük.
-Ez alapján
+Moláris fajlagos vezetésen ($\Lambda _m$) a fajlagos vezetés és a koncentráció hányadosát értjük. Ez alapján
 
 \begin{equation}
 \label{eq:lambdam}
@@ -40,23 +39,20 @@ Ez alapján
 \end{equation}
 
 ahol $c$ az oldat koncentrációja (mol$\cdot$dm$^{-3}$) és $V$ a hígítás.
-A vezetés szoros kapcsolatban van az ionok mozgékonyságával: ha ugyanis a mérő elektródra feszültséget kapcsolunk, az elektrolitban ionvándorlás indul meg.
-A vándorlás sebessége függ az elektromos térerő nagyságától, ezért a vándorlási sebességet 1 V/cm térerőre vonatkoztatjuk.
-Az 1 V/cm térerő hatására másodpercenként megtett utat az ion relatív mozgékonyságának ($u$) nevezzük.
-Mivel egy biner elektrolitban mind az anionok, mind a kationok hozzájárulnak a vezetéshez, a fajlagos vezetés koncentrációtól való megváltozását
+%A vezetés szoros kapcsolatban van az ionok mozgékonyságával: ha ugyanis a mérő elektródra feszültséget kapcsolunk, az elektrolitban ionvándorlás indul meg.
+%A vándorlás sebessége függ az elektromos térerő nagyságától, ezért a vándorlási sebességet 1 V/cm térerőre vonatkoztatjuk.
+%Az 1 V/cm térerő hatására másodpercenként megtett utat az ion relatív mozgékonyságának ($u$) nevezzük.
+Mivel egy biner elektrolitban mind az anionok, mind a kationok hozzájárulnak a vezetéshez, erős elektrolitok híg oldatainak fajlagos moláris vezetését az \emph{ionok független vándorlásának törvénye} írja le:
 
 \begin{equation}
 \label{eq:kohlrausch2}
-	\kappa
+	\Lambda _m^0
 	=
-	c
-	F
-	(z_a \nu _a u_k + z_k \nu _k u_k)
-	/1000
+	\lambda _a^0 \nu _a z_a + \lambda _k^0 \nu _k z_k
+%	/1000
 \end{equation}
 
-formában írhatjuk fel erős elektrolitok híg oldataira, ahol $z_a, z_k$: ionok töltésszáma; $\nu _a, \nu _a$: sztöchiometriai konstansok; $F$: Faraday állandó.
-
+ahol $z_a, z_k$: ionok töltésszáma; $\nu _a, \nu _k$: sztöchiometriai konstansok; $\lambda _a^0$ illetve $\lambda _k^0$ az anionok és a kationok végtelen hígításra vonatkozó moláris fajlagos vezetése.
 Gyengeelektrolitok vezetése
 
 \begin{equation}
@@ -68,7 +64,7 @@ Gyengeelektrolitok vezetése
 \end{equation}
 
 formában adható meg, ahol $\alpha$ a disszociáció foka, $\lambda _0$ a végtelen hígítású oldat vezetése.
-Ha a gyengeelektrolit koncentrációja kicsi, az ionmozgékonyságok csak a hőmérséklettől függenek, a koncentrációtól nem.
+%Ha a gyengeelektrolit koncentrációja kicsi, az ionmozgékonyságok csak a hőmérséklettől függenek, a koncentrációtól nem.
 Egy AH gyengesav disszociációs állandója ($K_d$) kiszámítható a koncentráció és a disszociáció fokának ismeretében
 
 \begin{equation}
@@ -79,7 +75,7 @@ Egy AH gyengesav disszociációs állandója ($K_d$) kiszámítható a koncentr�
 \end{equation}
 
 Érdemes megjegyezni azonban, hogy a disszociációs állandó adott hőmérsékleten függ - a Debye-Hückel elmélet alapján - a közeg permittivitásától is.
-Ha a \ref{eq:kd} egyenlet $\alpha$-ra rendezett alakját behelyettesítjük ez utóbbi egyenletbe, a gyengeelektrolitok disszociációjára Ostwald által megállapított összefüggéshez jutunk:
+Ha a \ref{eq:lambdam} egyenlet $\alpha$-ra rendezett alakját behelyettesítjük ez utóbbi egyenletbe, a gyengeelektrolitok disszociációjára Ostwald által megállapított összefüggéshez jutunk (\emph{Ostwald féle hígítási törvény}):
 
 \begin{equation}
 \label{eq:ostwald}
@@ -145,7 +141,7 @@ ahol V a hígítás.
 
 \subsection{A gyakorlat leírása}
 
-A konduktométer harangelektródját többször (4 - 5) öblítsük át desztillált vízzel majd kis részlet 1 $\upmu$ S/cm-nél kisebb fajlagos vezetésű vízzel, melyet külön edényben a technikustól kell kérni.
+A konduktométer harangelektródját többször (4 - 5) öblítsük át desztillált vízzel majd kis részlet 1 $\upmu$S/cm-nél kisebb fajlagos vezetésű vízzel, melyet külön edényben a technikustól kell kérni.
 A gyakorlatvezető által kijelölt alkohollal (metanol, etanol vagy propanol) készítsünk 20 v/v\%-os oldatot.
 A kijelölt 1 mol$\cdot$dm$^{-3}$ koncentrációjú gyengesav törzsoldatából pipettázzunk két száraz 100 cm$^3$-es mérőlombikba 2.00 cm$^3$-t, majd töltsük jelre az első lombikot vezetőképességi vízzel, a másikat a 20\%-os alkohol oldattal.
 A mérést mérőhengerben végezzük.
@@ -153,16 +149,30 @@ A mérést mérőhengerben végezzük.
 Töltsük először a vizes hígítású oldatot a mérőedénybe, és mérjük meg a vezetését.
 Ezután 25 cm$^3$-t pipettázzunk ki az oldatból és 50 cm$^3$-es mérőlombikban hígítsuk kétszeresére.
 Az elektród gondos leöblítése után mérjük ezen oldat vezetését is.
-Az oldat vezetését leghelyesebb úgy meghatározni, hogy az elektród bemerítésétől 5 percen át 30-60 másodpercenként észleljük és feljegyezzük a cellában jelentkező vezetés értékeket.
+%Az oldat vezetését leghelyesebb úgy meghatározni, hogy az elektród bemerítésétől 5 percen át 30-60 másodpercenként észleljük és feljegyezzük a cellában jelentkező vezetés értékeket.
 A kétszeres hígítást még 3-4-szer megismételjük, minden alkalommal mérve a vezetést.
 
 Ismételjük meg a méréseket az alkoholt tartalmazó oldatokkal is úgy, hogy a hígítások során bidesztillált víz helyett a mérőlombikot az alkoholos oldattal töltjük mindig jelre.
 
-A mérőcellában egy-egy oldatot legalább 25 percig kell termosztálni.
-A rendelkezésre álló idő rövidsége miatt a legcélszerűbb, ha a sorozat következő, már meghígított tagját főzőpohárban előre a termosztátba helyezzük, így csökkentve a két mérés közti várakozási időt.
+Minden esetben jegyezzük fel a mért oldat hőmérsékletét is (a vezetőképességmérő írja az elektródba épített hőmérő által mért hőmérsékletet).
+%A mérőcellában egy-egy oldatot legalább 25 percig kell termosztálni.
+%A rendelkezésre álló idő rövidsége miatt a legcélszerűbb, ha a sorozat következő, már meghígított tagját főzőpohárban előre a termosztátba helyezzük, így csökkentve a két mérés közti várakozási időt.
 
 Végül mérjük meg mind a hígításokhoz használt vezetőképességi víz, mind az alkohol oldat vezetését, melyekkel mérési eredményeinket korrigálnunk kell.
 Ezután határozzuk meg 0.1 és 0.01 M KCl oldatok felhasználásával a cellaállandó értékét úgy, hogy cellakonstansként a két mérésből számolt értékek átlagát fogadjuk el.
+
+A \ref{fig:vez}. ábra egy vezetőképesség mérésére szolgáló cella felépítését mutatja.
+A mérendő oldatba egy geometriailag jól definiált, indifferens elektródpárt merítünk és az ezen létrejövő feszültségesést mérjük.
+A konduktometria gyakorlatban az elektrolízis, ill. az elektromos polarizáció csökkentése, ill. kiküszöbölése érdekében váltóárammal végezzük a mérést.
+
+\begin{figure}
+\centering
+\includegraphics{cond.eps}
+\caption{Vezetőképesség mérésére szolgáló cella felépítése. 1 - harangelektród, 2 - Pt korommal bevont gyűrűk, 3 - elektromos elvezetés, 4 - kettős falú temperálható edény, 5 - mágneses keverő.}
+\label{fig:vez}
+\end{figure}
+
+
 
 \subsection{A mérési eredmények kiértékelése}
 
@@ -184,16 +194,5 @@ c (mol $\cdot$ dm$^{-3}$) & G$_{\text{mért}}$ & $\kappa_{\text{korr}}$ (S $\cdo
 \item Határozzuk meg grafikusan $\lambda_0$ értékét, $\lambda_c$ és $\lambda_0$ ismeretében pedig minden koncentrációra számítsuk ki $\alpha$ és $K_d$ értékeit.
 
 \end{enumerate}
-
-A \ref{fig:vez}. ábra egy vezetőképesség mérésére szolgáló cella felépítését mutatja.
-A mérendő oldatba egy geometriailag jól definiált, indifferens elektródpárt merítünk és az ezen létrejövő feszültségesést mérjük.
-A konduktometria gyakorlatban az elektrolízis, ill. az elektromos polarizáció csökkentése, ill. kiküszöbölése érdekében váltóárammal végezzük a mérést.
-
-\begin{figure}
-\centering
-\includegraphics{cond.eps}
-\caption{Vezetőképesség mérésére szolgáló cella felépítése. 1 - harangelektród, 2 - Pt korommal bevont gyűrűk, 3 - elektromos elvezetés, 4 - kettős falú temperálható edény, 5 - mágneses keverő.}
-\label{fig:vez}
-\end{figure}
 
 

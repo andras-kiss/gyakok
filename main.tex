@@ -6,7 +6,8 @@
 \usepackage{textcomp}
 \usepackage{pgfplots}
 \usepackage{anysize}
-\marginsize{3.2cm}{2.8cm}{3cm}{2cm}
+% left right up down
+\marginsize{3.2cm}{2.8cm}{2cm}{2cm}
 \usepackage{setspace}
 \setstretch{1.2}
 \frenchspacing
@@ -25,13 +26,14 @@
 \hyphenation{hő-mér-sék-let-füg-gé-sét}
 
 \renewcommand\footrule{\begin{minipage}{1\textwidth}
-\hrule width \hsize height 2pt \kern 1mm \hrule width \hsize   
-%\hrule width \hsize height 1pt   
+%\hrule width \hsize height 2pt \kern 1mm \hrule width \hsize   
+\hrule width \hsize height 1pt   
 \end{minipage}\par}%
 
 \renewcommand\headrule{
 \begin{minipage}{1\textwidth}
-\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt 
+%\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt 
+\hrule width \hsize height 1pt 
 \end{minipage}}%
 
 \pagestyle{fancy}
@@ -54,13 +56,13 @@
 \date{}
  
 \begin{document}
-\clearpage\maketitle
-\thispagestyle{empty}
-\newpage 
-\tableofcontents
-\newpage
+%\clearpage\maketitle
+%\thispagestyle{empty}
+%\newpage 
+%\tableofcontents
+%\newpage
 
-\input{gyogyboml.tex}
-\newpage
+%\input{gyogyboml.tex}
+%\newpage
 \input{pkvez.tex}
 \end{document}
