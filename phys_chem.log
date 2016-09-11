@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.28)  10 SEP 2016 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.28)  11 SEP 2016 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**phys_chem.tex
+(./phys_chem.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -1063,7 +1063,11 @@ Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
-) (./main.aux
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(./phys_chem.aux
 
 LaTeX Warning: Label `eq:divider' multiply defined.
 
@@ -1089,26 +1093,26 @@ LaTeX Warning: Label `eq:divider' multiply defined.
 LaTeX Warning: Label `eq:rate' multiply defined.
 
 )
-\openout1 = `main.aux'.
+\openout1 = `phys_chem.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 63.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    ... okay on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1178,27 +1182,44 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.14}).
 
 \symgns@font=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/aer/m/n --> TS1/aer/bx/n on input line 58.
-Package gensymb Info: Math companion symbols declared on input line 58.
-LaTeX Info: Redefining \degree on input line 58.
-LaTeX Info: Redefining \celsius on input line 58.
+(Font)                  TS1/aer/m/n --> TS1/aer/bx/n on input line 63.
+Package gensymb Info: Math companion symbols declared on input line 63.
+LaTeX Info: Redefining \degree on input line 63.
+LaTeX Info: Redefining \celsius on input line 63.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 58.
-LaTeX Info: Redefining \ohm on input line 58.
-Package gensymb Info: Using \textohm for \ohm on input line 58.
-Package gensymb Info: Using \textmu for \micro on input line 58.
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 59.
-LaTeX Font Info:    No file TS1aer.fd. on input line 59.
+erthousand on input line 63.
+LaTeX Info: Redefining \ohm on input line 63.
+Package gensymb Info: Using \textohm for \ohm on input line 63.
+Package gensymb Info: Using \textmu for \micro on input line 63.
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 64.
+LaTeX Font Info:    No file TS1aer.fd. on input line 64.
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 59.
+(Font)              using `TS1/cmr/m/n' instead on input line 64.
 
-[1
+Package epstopdf Info: Source file: <pte_logo.eps>
+(epstopdf)                    date: 2010-12-05 23:49:18
+(epstopdf)                    size: 221360 bytes
+(epstopdf)             Output file: <pte_logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-09-11 15:53:43
+(epstopdf)                    size: 32183 bytes
+(epstopdf)             Command: <repstopdf --outfile=pte_logo-eps-converted-to.
+pdf pte_logo.eps>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+<pte_logo-eps-converted-to.pdf, id=4, 159.59625pt x 159.59625pt>
+File: pte_logo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pte_logo-eps-converted-to.pdf>
+Package pdftex.def Info: pte_logo-eps-converted-to.pdf used on input line 64.
+(pdftex.def)             Requested size: 85.35696pt x 85.35756pt.
+ [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pte_logo-eps-converted-t
+o.pdf>] (./phys_chem.toc)
 \tf@toc=\write5
-\openout5 = `main.toc'.
+\openout5 = `phys_chem.toc'.
 
 
 
@@ -1228,14 +1249,14 @@ Package epstopdf Info: Source file: <ion1.eps>
 (epstopdf)                    date: 2016-09-10 10:59:15
 (epstopdf)                    size: 25824 bytes
 (epstopdf)             Output file: <ion1-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-10 10:59:27
+(epstopdf)                    date: 2016-09-11 15:53:44
 (epstopdf)                    size: 12923 bytes
 (epstopdf)             Command: <repstopdf --outfile=ion1-eps-converted-to.pdf 
 ion1.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
-<ion1-eps-converted-to.pdf, id=48, 178.6675pt x 156.585pt>
+<ion1-eps-converted-to.pdf, id=51, 178.6675pt x 156.585pt>
 File: ion1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ion1-eps-converted-to.pdf>
@@ -1246,14 +1267,14 @@ Package epstopdf Info: Source file: <ion2.eps>
 (epstopdf)                    date: 2016-09-10 10:59:23
 (epstopdf)                    size: 52010 bytes
 (epstopdf)             Output file: <ion2-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-10 10:59:27
+(epstopdf)                    date: 2016-09-11 15:53:44
 (epstopdf)                    size: 19196 bytes
 (epstopdf)             Command: <repstopdf --outfile=ion2-eps-converted-to.pdf 
 ion2.eps>
 (epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
-<ion2-eps-converted-to.pdf, id=62, 328.22626pt x 133.49875pt>
+<ion2-eps-converted-to.pdf, id=65, 328.22626pt x 133.49875pt>
 File: ion2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ion2-eps-converted-to.pdf>
@@ -1265,14 +1286,14 @@ Package epstopdf Info: Source file: <lambda0.eps>
 (epstopdf)                    date: 2016-09-05 18:42:29
 (epstopdf)                    size: 27992 bytes
 (epstopdf)             Output file: <lambda0-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-05 18:42:29
-(epstopdf)                    size: 9497 bytes
+(epstopdf)                    date: 2016-09-11 15:53:44
+(epstopdf)                    size: 9370 bytes
 (epstopdf)             Command: <repstopdf --outfile=lambda0-eps-converted-to.p
 df lambda0.eps>
 (epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
-<lambda0-eps-converted-to.pdf, id=85, 310.15875pt x 201.75375pt>
+<lambda0-eps-converted-to.pdf, id=88, 310.15875pt x 201.75375pt>
 File: lambda0-eps-converted-to.pdf Graphic file (type pdf)
 
 <use lambda0-eps-converted-to.pdf>
@@ -1283,21 +1304,61 @@ Package epstopdf Info: Source file: <cond.eps>
 (epstopdf)                    date: 2016-09-05 18:42:29
 (epstopdf)                    size: 81850 bytes
 (epstopdf)             Output file: <cond-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-05 18:42:29
-(epstopdf)                    size: 32446 bytes
+(epstopdf)                    date: 2016-09-11 15:53:45
+(epstopdf)                    size: 32449 bytes
 (epstopdf)             Command: <repstopdf --outfile=cond-eps-converted-to.pdf 
 cond.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
-<cond-eps-converted-to.pdf, id=103, 154.5775pt x 144.54pt>
+<cond-eps-converted-to.pdf, id=106, 154.5775pt x 144.54pt>
 File: cond-eps-converted-to.pdf Graphic file (type pdf)
 
 <use cond-eps-converted-to.pdf>
 Package pdftex.def Info: cond-eps-converted-to.pdf used on input line 153.
 (pdftex.def)             Requested size: 154.5771pt x 144.53963pt.
 ) [14 <./cond-eps-converted-to.pdf>]
-(./vitc_english.tex [15] [16]) [17] (./main.aux)
+(./vitc_english.tex [15] [16]) [17] (./inversion_english.tex
+Overfull \hbox (4.3397pt too wide) in paragraph at lines 7--7
+[]\T1/aer/bx/n/17.28 Investigation of su-crose in-ver-sion with po-larime-
+ []
+
+Package epstopdf Info: Source file: <els1.eps>
+(epstopdf)                    date: 2016-09-11 13:07:39
+(epstopdf)                    size: 18575 bytes
+(epstopdf)             Output file: <els1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-09-11 15:53:45
+(epstopdf)                    size: 8317 bytes
+(epstopdf)             Command: <repstopdf --outfile=els1-eps-converted-to.pdf 
+els1.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+<els1-eps-converted-to.pdf, id=123, 254.9525pt x 146.5475pt>
+File: els1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use els1-eps-converted-to.pdf>
+Package pdftex.def Info: els1-eps-converted-to.pdf used on input line 39.
+(pdftex.def)             Requested size: 254.95186pt x 146.54712pt.
+ [18 <./els1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <els2.eps>
+(epstopdf)                    date: 2016-09-11 13:26:54
+(epstopdf)                    size: 32011 bytes
+(epstopdf)             Output file: <els2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-09-11 15:53:45
+(epstopdf)                    size: 10720 bytes
+(epstopdf)             Command: <repstopdf --outfile=els2-eps-converted-to.pdf 
+els2.eps>
+(epstopdf)             \includegraphics on input line 68.
+Package epstopdf Info: Output file is already uptodate.
+
+<els2-eps-converted-to.pdf, id=136, 244.915pt x 161.60374pt>
+File: els2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use els2-eps-converted-to.pdf>
+Package pdftex.def Info: els2-eps-converted-to.pdf used on input line 68.
+(pdftex.def)             Requested size: 244.91438pt x 161.60335pt.
+ [19 <./els2-eps-converted-to.pdf>] [20]
+[21]) [22] (./phys_chem.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1306,13 +1367,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24658 strings out of 493013
- 613909 string characters out of 6135682
- 772268 words of memory out of 5000000
- 27694 multiletter control sequences out of 15000+600000
+ 24694 strings out of 493013
+ 614733 string characters out of 6135682
+ 773268 words of memory out of 5000000
+ 27721 multiletter control sequences out of 15000+600000
  46993 words of font info for 97 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 69i,16n,120p,1070b,1562s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,120p,1075b,1562s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
@@ -1334,10 +1395,10 @@ ts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (17 pages, 326412 bytes).
+Output written on phys_chem.pdf (22 pages, 389675 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
+ 231 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

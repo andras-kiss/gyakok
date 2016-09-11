@@ -1,5 +1,5 @@
 \documentclass[a4paper, 12pt, twoside]{article}
-\usepackage[hungarian]{babel}
+%\usepackage[hungarian]{babel}
 \usepackage{ae,aecompl}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -20,6 +20,7 @@
 \usepackage{enumerate}
 \usepackage{amsmath}
 \usepackage{upgreek}
+\usepackage{indentfirst}
 \numberwithin{equation}{section}
 \numberwithin{figure}{section}
 \numberwithin{table}{section}
@@ -51,22 +52,33 @@
 
 \setcounter{tocdepth}{1}
 %\thispagestyle{empty}
-\title{Fizikai Kémia gyakorlatok}
-\author{Kovács Barna \\ Kunsági-Máté Sándor \\ Kiss András}
-\date{}
+\title{Physical chemistry laboratory practice for pharmacy students}
+
+\author{\emph{written by:} \\ Barna Kovács \\ Sándor Kunsági-Máté \\ Géza Nagy \\ \\ \emph{translated by:} \\ András Kiss \\ \\ \\ \\ \\ \\ \\ \\
+\includegraphics[width=0.2\textwidth]{pte_logo.eps} \\
+Department of General and Physical Chemistry \\ University of Pécs}
+
+%\\ \emph{and} \\ Dániel Filotás
  
 \begin{document}
-%\clearpage\maketitle
-%\thispagestyle{empty}
-%\newpage 
-%\tableofcontents
-%\newpage
+\clearpage\maketitle
+\thispagestyle{empty}
+\newpage 
+\tableofcontents
+\newpage
 
-%\input{gyogyboml.tex}
-%\input{gyogyboml_english.tex}
+\input{gyogyboml_english.tex}
+\newpage
+\clearpage
+\input{ion_english.tex}
+\newpage
+\input{pkvez_english.tex}
+\newpage
 \input{vitc_english.tex}
-%\newpage
-%\input{pkvez.tex}
-%\input{pkvez_angol.tex}
+\newpage
+\input{inversion_english.tex}
+
+
+
 
 \end{document}

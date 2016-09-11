@@ -17,3 +17,11 @@
 \contentsline {subsection}{\numberline {4.1}Introduction}{15}
 \contentsline {subsection}{\numberline {4.2}Practice procedures}{16}
 \contentsline {subsection}{\numberline {4.3}Results to submit}{17}
+\contentsline {section}{\numberline {5}Investigation of sucrose inversion with polarimetry}{18}
+\contentsline {subsection}{\numberline {5.1}Introduction}{18}
+\contentsline {paragraph}{Using the rate equations.}{18}
+\contentsline {paragraph}{Guggenheim's method.}{19}
+\contentsline {paragraph}{Method of initial rates.}{20}
+\contentsline {subsection}{\numberline {5.2}Investigating the inversion reaction of sucrose}{20}
+\contentsline {subsection}{\numberline {5.3}Practice procedures}{21}
+\contentsline {subsection}{\numberline {5.4}Evaluation}{22}
