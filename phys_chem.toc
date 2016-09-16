@@ -25,3 +25,4 @@
 \contentsline {subsection}{\numberline {5.2}Investigating the inversion reaction of sucrose}{20}
 \contentsline {subsection}{\numberline {5.3}Practice procedures}{21}
 \contentsline {subsection}{\numberline {5.4}Evaluation}{22}
+\contentsline {section}{Appendix A -- Ionic conductivity at infinite dilution}{23}
