@@ -4,7 +4,6 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{textcomp}
-\usepackage{pgfplots}
 \usepackage{anysize}
 % left right up down
 \marginsize{3.2cm}{2.8cm}{2cm}{2cm}
@@ -21,10 +20,20 @@
 \usepackage{amsmath}
 \usepackage{upgreek}
 \usepackage{indentfirst}
+\usepackage{sidecap}
 \numberwithin{equation}{section}
 \numberwithin{figure}{section}
 \numberwithin{table}{section}
 \hyphenation{hő-mér-sék-let-füg-gé-sét}
+\usepackage{pgfplots}
+\usepackage{pst-plot}
+\usepackage{tikz}
+\usepgfplotslibrary{colormaps}
+\usetikzlibrary{pgfplots.colormaps}
+%\usepgfplotslibrary{external}
+%\tikzexternalize
+
+
 
 \renewcommand\footrule{\begin{minipage}{1\textwidth}
 %\hrule width \hsize height 2pt \kern 1mm \hrule width \hsize   
@@ -58,8 +67,6 @@
 \includegraphics[width=0.2\textwidth]{pte_logo.eps} \\
 Department of General and Physical Chemistry \\ University of Pécs}
 
-%\\ \emph{and} \\ Dániel Filotás
- 
 \begin{document}
 \clearpage\maketitle
 \thispagestyle{empty}
@@ -79,6 +86,8 @@ Department of General and Physical Chemistry \\ University of Pécs}
 \input{inversion_english.tex}
 \newpage
 \input{ionic_conductivities.tex}
+\newpage
+\input{langmuir.tex}
 \newpage
 \input{ternary.tex}
 
